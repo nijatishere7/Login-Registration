@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@font-face {
+    font-weight: 100;
+    font-family: Poppins;
+    src: url(./assets/Fonts/Poppins/PoppinsThin.ttf);
+}
+
+@font-face {
+    font-weight: 200;
+    font-family: Poppins;
+    src: url(./assets/Fonts/Poppins/PoppinsExtraLight.ttf);
+}
+
+@font-face {
+    font-weight: 300;
+    font-family: Poppins;
+    src: url(./assets/Fonts/Poppins/PoppinsLight.ttf);
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: Poppins;
+    src: url(./assets/Fonts/Poppins/PoppinsRegular.ttf);
+}
+
+@font-face {
+    font-weight: 500;
+    font-family: Poppins;
+    src: url(./assets/Fonts/Poppins/PoppinsMedium.ttf);
+}
+
+@font-face {
+    font-weight: 600;
+    font-family: Poppins;
+    src: url(./assets/Fonts/Poppins/PoppinsSemiBold.ttf);
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: Poppins;
+    src: url(./assets/Fonts/Poppins/PoppinsBold.ttf);
+}
+
+@font-face {
+    font-weight: 800;
+    font-family: Poppins;
+    src: url(./assets/Fonts/Poppins/PoppinsExtraBold.ttf);
+}
+
+@font-face {
+    font-weight: 900;
+    font-family: Poppins;
+    src: url(./assets/Fonts/Poppins/PoppinsBlack.ttf);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #e2e2e2, #c9d6ff)
+}
+
+
