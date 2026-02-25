@@ -1,16 +1,20 @@
-# React + Vite
+🔐 Adaptive Sliding Auth Interface
+Bu layihə, React.js və Tailwind CSS-in gücündən istifadə edərək hazırlanmış müasir və tam responsiv Auth (Giriş/Qeydiyyat) interfeysidir. Masaüstü cihazlarda klassik sliding (sürüşmə) animasiyası, mobil cihazlarda isə erqonomik keçid məntiqi ilə təchiz olunub.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Öndə Çıxan Xüsusiyyətlər
+Dual-Layer Animation: Masaüstü ekranlarda useRef və CSS before elementləri ilə təmin edilən axıcı sürüşmə effekti.
 
-Currently, two official plugins are available:
+Hybrid Navigation: * Desktop: İnteraktiv mavi panel (Toggle) vasitəsilə keçid.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Mobile: Formanın daxilində yerləşən akıllı "Register/Login" linkləri.
 
-## React Compiler
+Responsive Typography: Ekran ölçüsünə görə dinamik dəyişən font ölçüləri və padding-lər.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Social Auth UI: Populyar platformalar (Google, Facebook, GitHub, LinkedIn) üçün hazır inteqrasiya edilmiş ikonlar.
 
-## Expanding the ESLint configuration
+🛠 Texnoloji Stack
+React: Komponent əsaslı arxitektura və useState ilə state idarəetməsi.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tailwind CSS: Dinamik breakpoint-lər (sm:, md:, lg:) və custom animasiyalar.
+
+React Icons: Yüksək keyfiyyətli vektor ikonlar (fa paketi).
